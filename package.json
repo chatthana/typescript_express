@@ -1,0 +1,40 @@
+{
+  "name": "typescript_express",
+  "version": "1.0.0",
+  "description": "Express application with TypeScript boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Chatthana Janethanakarn <chattana.j@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "method-override": "^2.3.10",
+    "moment": "^2.19.2",
+    "mongoose": "^4.13.5",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/express": "^4.0.39",
+    "@types/moment": "^2.13.0",
+    "@types/mongoose": "^4.7.28",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^8.0.53",
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.6.1",
+    "webpack": "^3.8.1",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chatthana/typescript_express.git"
+  }
+}
