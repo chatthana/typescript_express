@@ -7,7 +7,6 @@ export default class App {
   private app: express.Application;
 
   private constructor(config: Object) {
-    console.log(config);
     this.app = express();
   }
 
